@@ -1,0 +1,16 @@
+.widgetContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 10px;
+}
+
+.chartContainer {
+  flex: 2;
+}
+
+.labelContainer {
+  flex: 1;
+  padding-left: 20px;
+}

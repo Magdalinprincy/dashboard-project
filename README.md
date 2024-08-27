@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+**Dynamic Dashboard Project**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Overview**
 
-## Available Scripts
+This project implements a dynamic dashboard page using React, allowing users to manage widgets across various categories. It demonstrates proficiency in React development and state management.
 
-In the project directory, you can run:
+**Features Implemented**
 
-### `npm start`
+- **Dynamic Widget Addition and Removal:** Users can add and remove widgets dynamically.
+- **Category-Based Widget Organization:** Widgets are organized by categories for easy management.
+- **Random Text Display in Widgets:** Each widget displays random text for demonstration purposes.
+- **User-Friendly Interface:** The interface is designed for straightforward widget management.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**In-Progress**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Search Functionality for Widgets:** Currently being developed to allow users to search widgets across categories.
+- **JSON-Based Dynamic Dashboard Structure**: A JSON structure for dynamically building the dashboard is in progress.
 
-### `npm test`
+**Technologies**
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- React Hooks (useState, useEffect) for state management
+- react-chartjs-2 and chart.js for data visualization
 
-### `npm run build`
+**Prerequisites**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Node.js and npm
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Installation**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**1. Clone the Repository**
 
-### `npm run eject`
+**2. Install Dependencies**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+npm install
+npm install react-chartjs-2 chart.js
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Usage**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Start the development server:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   npm start
 
-## Learn More
+2. Open http://localhost:3000 in your browser.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+3. Add widgets:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Click "+ Add Widget"
 
-### Code Splitting
+4. Remove widgets:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- Uncheck widgets in the category list
 
-### Analyzing the Bundle Size
+**Future Enhancements**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Implement widget search functionality
 
-### Making a Progressive Web App
+- Develop JSON structure for dynamic dashboard configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Add more interactive charts and visualizations
 
-### Advanced Configuration
+**Important Note**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Responsiveness**: This project is not currently responsive. Please view it at 100% scale. Responsiveness will be implemented in future updates.

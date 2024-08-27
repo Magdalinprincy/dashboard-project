@@ -1,0 +1,38 @@
+{
+  "categories": [
+    {
+      "name": "CSPM",
+      "widgets": [
+        {
+          "id": "cloudAccounts",
+          "name": "Cloud Accounts",
+          "component": "CloudAccounts",
+          "checked": true
+        },
+        {
+          "id": "cloudAccountAssessment",
+          "name": "Cloud Account Assessment",
+          "component": "CloudAccountRisk",
+          "checked": true
+        }
+      ]
+    },
+    {
+      "name": "CWPP",
+      "widgets": [
+        {
+          "id": "workloadProtection",
+          "name": "Workload Protection",
+          "component": "CloudAccounts",
+          "checked": true
+        },
+        {
+          "id": "vulnerabilityManagement",
+          "name": "Vulnerability Management",
+          "component": "CloudAccountRisk",
+          "checked": true
+        }
+      ]
+    }
+  ]
+}
